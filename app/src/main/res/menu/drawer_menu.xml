@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/bottom_navigation"
+        android:background="#000000"></View>
+
+    <item android:title="Jobs">
+        <menu>
+            <item
+                android:id="@+id/view_task_menu"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="Manage My Tasks" />
+            <item
+                android:id="@+id/view_schedule_menu"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="View My Jobs" />
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/send_message_menu"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="Send Message" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/google_account_menu"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Update Facebook Account" />
+
+    <item
+        android:id="@+id/invitation_menu"
+        android:icon="@drawable/ic_insert_invitation_blue_24dp"
+        android:title="Invitation" />
+
+    <item
+        android:id="@+id/log_out_menu"
+        android:title="Log Out" />
+</menu>

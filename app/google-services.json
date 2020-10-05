@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "94045935953",
+    "firebase_url": "https://reminder-8fb88.firebaseio.com",
+    "project_id": "reminder-8fb88",
+    "storage_bucket": "reminder-8fb88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94045935953:android:363a1eb2e8b73735",
+        "android_client_info": {
+          "package_name": "com.example.firstapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94045935953-tsqgc2uc9mn1lhpod5i9vu9tk3mh4odu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firstapplication",
+            "certificate_hash": "2af431fd502c69877778f903dec4cc2ed7ae9d86"
+          }
+        },
+        {
+          "client_id": "94045935953-ds1k531385ft6btaj9sb7hl4ao1di7nr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVo4J6PB2MHbyp6A9tMI7wkxpQBxIcu6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94045935953-ds1k531385ft6btaj9sb7hl4ao1di7nr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

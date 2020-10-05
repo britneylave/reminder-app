@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="colorAccent">#7281FF</color>
+    <color name="colorListItem">#7281FF</color>
+    <color name="colorOverlay">#25000000</color>
+    <color name="colorErrorText">#FF9494</color>
+    <color name="colorTab">#F2F2F2</color>
+    <color name="colorTabTextActive">#363636</color>
+    <color name="colorTabText">#A4A4A4</color>
+    <color name="colorTeachingText">#fff</color>
+    <color name="colorTeachingActionBackground">#8490FF</color>
+
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="item_name">#0c0c0c</color>
+    <color name="description">#1a1a1a</color>
+    <color name="chef">#777</color>
+    <color name="timestamp">#777</color>
+    <color name="grey">#696464</color>
+    <color name="green">#43a047</color>
+    <color name="red">#ff1744</color>
+    <color name="darker_blue">#407088</color>
+
+</resources>

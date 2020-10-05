@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aandroid="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/appbar_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Add New Task"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="26dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <EditText
+                android:id="@+id/add_task_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:gravity="top|left"
+                android:hint="Enter the title"
+                android:inputType="textMultiLine"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_access_time_black_48dp" />
+
+                <TextView
+                    android:id="@+id/add_task_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/appbar_padding"
+                    android:gravity="center_vertical"
+                    android:text="29/08/2019"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:width="200dp"/>
+
+                <TextView
+                    android:id="@+id/add_task_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/appbar_padding"
+                    android:gravity="center_vertical"
+                    android:text="00:00"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_location_on_black_48dp" />
+
+                <EditText
+                    android:id="@+id/add_task_location"
+                    android:padding="@dimen/appbar_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tab_rounded"
+                    android:layout_marginLeft="@dimen/appbar_padding"
+                    android:gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:hint="Location"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_notifications_black_48dp" />
+
+
+            <ToggleButton
+                android:id="@+id/add_task_notify_button"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:textOff=""
+                android:textOn=""
+                android:text=""
+                android:checked="false"
+                android:background="@drawable/ic_notify_toggle_blue"
+                android:layout_marginStart="@dimen/appbar_padding" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/add_task_error"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_error"
+            android:textColor="@android:color/holo_red_dark"/>
+
+
+        <Button
+            android:id="@+id/add_task_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/list_teaching_rounded"
+            android:padding="@dimen/appbar_padding"
+            android:text="Add task"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            aandroid:elevation="8dp" />
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_loading" />
+
+</LinearLayout>

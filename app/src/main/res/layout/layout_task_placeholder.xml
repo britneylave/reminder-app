@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/tab_rounded"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_padding">
+
+    <LinearLayout
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:background="@color/placeholder_bg"
+        android:orientation="vertical">
+
+
+        <View
+            android:layout_width="@dimen/placeholder_image"
+            android:layout_height="@dimen/placeholder_image"
+            android:layout_marginRight="@dimen/activity_padding"
+            android:layout_weight="0.5"
+            android:background="@color/placeholder_bg" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorTab" />
+
+        <View
+            android:layout_width="@dimen/placeholder_image"
+            android:layout_height="@dimen/placeholder_image"
+            android:layout_marginRight="@dimen/activity_padding"
+            android:layout_weight="0.5"
+            android:background="@color/placeholder_bg" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="250sp"
+            android:layout_height="50sp"
+            android:layout_below="@id/name"
+            android:layout_marginBottom="5dp"
+            android:background="@color/placeholder_bg" />
+
+        <View
+            android:id="@+id/name"
+            android:layout_width="250sp"
+            android:layout_height="@dimen/placeholder_text_height"
+            android:background="@color/placeholder_bg" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
